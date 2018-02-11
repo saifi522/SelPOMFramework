@@ -42,6 +42,7 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "/Users/LENOVO/Downloads/chromedriver_win32");	
+			//chrome driver location added 
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
